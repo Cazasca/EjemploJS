@@ -1,6 +1,6 @@
 function abrirRegalo(event){
   const image = event.currentTarget;
-  image.src = 'jack-smith-map.png'; ///////////////////////////////
+  image.src = '../regaloImg/giphy.gif'; ///////////////////////////////
   image.removeEventListener('click', abrirRegalo);
 }
 
