@@ -24,7 +24,7 @@ const albumView = document.querySelector('#album-view');
 for(let i = 0; i < PHOTO_LIST.length; i++){
   const photoSrc = PHOTO_LIST[i];
   const image = createImage(photoSrc);
-  image.addEventListener('clik', onThumbnailClick);
+  image.addEventListener('click', onThumbnailClick);
   albumView.appendChild(image);
 }
 
